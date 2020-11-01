@@ -1,0 +1,177 @@
+$base-color: #F16334;
+$text-color: #26282d;
+$my-font: 'Montserrat', sans-serif;
+
+button {
+  background-color: white;
+  color: black; 
+  border: 1px solid black;
+  padding: 22px 80px 21px;
+  text-align: center;
+  font-family: $my-font;
+  font-weight: 600;
+  color: gray;
+  margin-left: 15px;
+  letter-spacing: 0.1rem;
+  }
+  button:hover {
+    background-color: $base-color;
+    color: white;
+    border: 1px solid;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2), 0 5px 15px 0 rgba(0, 0, 0, 0.19);
+    border: none;
+  }
+
+  img {
+    height: 70px;
+    width: 70px;
+  }
+
+#frame1 {
+  width: 100%;
+  height: 1080px;
+  text-align: center;
+  // padding-top: 230px;
+  font-family: $my-font;
+}
+#frame2 {
+  width: 100%;
+  height: 1080px;
+  text-align: center;
+  padding-top: 230px;
+  font-family: $my-font;
+}
+#frame3 {
+  width: 100%;
+  height: 1080px;
+  text-align: center;
+  padding-top: 230px;
+  font-family: $my-font;
+}
+#frame4 {
+  width: 100%;
+  height: 1080px;
+  text-align: center;
+  padding-top: 230px;
+  font-family: $my-font;
+}
+#frame5 {
+  width: 100%;
+  height: 1080px;
+  text-align: center;
+  padding-top: 230px;
+  font-family: $my-font;
+}
+#frame6 {
+  width: 100%;
+  height: 1080px;
+  text-align: center;
+  padding-top: 230px;
+  font-family: $my-font;
+}
+#frame7 {
+  width: 100%;
+  height: 1080px;
+  text-align: center;
+  padding-top: 230px;
+  font-family: $my-font;
+}
+#frame8 {
+  width: 100%;
+  height: 1080px;
+  text-align: center;
+  padding-top: 230px;
+  font-family: $my-font;
+}
+#frame9 {
+  width: 100%;
+  height: 1080px;
+  text-align: center;
+  padding-top: 230px;
+  font-family: $my-font;
+}
+
+.frame1_header{
+  font-family: $my-font;
+  font-weight: 600;
+  font-size: 48px;
+  color: $text-color;
+  text-align: center;
+  margin-top: 180px;
+}
+.frame1_paragraph{
+  font-family: $my-font;
+  font-weight: 300;
+  font-size: 20px;
+  color: $text-color;
+  text-align: center;
+}
+
+.input_form{
+  width: 359px;
+    margin: 0 auto;
+    background: #fbfcfd;
+    border: 1px solid #f5f6f7;
+    padding: 22px 30px 21px;
+    font-family: $my-font;
+    font-size: 15px;
+    font-weight: 400;
+    // margin-left: 450px;
+}
+
+  .genuin_boy_img {
+    vertical-align:middle;
+    // margin-left: 400px;
+}
+.tooltiptext {
+    vertical-align:middle;
+    text-align: center;
+    margin-left: 30px;
+    border: none;
+    background: rgb(226, 226, 226);
+    padding: 30px;
+   border-radius: 5px;
+   font-family: $my-font;
+   font-size: 16px;
+}
+
+.slider{
+  height: 12px;
+  width: 1000px;
+  -webkit-appearance: none;
+  outline: none;
+  background-color: #F1F2F3;
+  border-radius: 50px;
+}
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 55px;
+  height: 18px;
+  border-radius: 50px;
+  border: 1px solid;
+  border-color: $base-color;
+  background: white;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2), 0 5px 15px 0 rgba(0, 0, 0, 0.19);
+  cursor: pointer;
+}
+.slider::-webkit-range-progress{
+  -webkit-appearance: none;
+  height: 12px;
+  border-radius: 50px;
+  background: $base-color;
+}
+input::-moz-range-progress{
+  height: 12px;
+  border-radius: 50px;
+  background: $base-color;
+}
+input::-moz-range-thumb{
+  height: 18px;
+  width: 55px;
+  border-radius: 50px;
+  border: 1px solid;
+  border-color: $base-color;
+  background: white;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2), 0 5px 15px 0 rgba(0, 0, 0, 0.19);
+}
